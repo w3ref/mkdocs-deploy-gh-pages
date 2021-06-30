@@ -51,4 +51,4 @@ git remote rm origin
 git remote add origin "${remote_repo}"
 
 # mkdocs gh-deploy --config-file "${CONFIG_FILE}" --force
-python -m sphinx -b html --force
+python -m sphinx -b html . _gh_pages/
